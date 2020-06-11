@@ -61,3 +61,7 @@ Most of these relate to Julian to Gregorian conversion, the main struggle of thi
 * [Stephen P. Morse] (https://stevemorse.org/jcal/julian.html)
 * [Fourmilab] (https://www.fourmilab.ch/documents/calendar/)
 * [Metric-Conversions.org] (https://www.metric-conversions.org/)
+
+## Notes for judges. (Hello, there!)
+
+All my work-in-progress and raw drafts and steps available for you judges to see on the Drafts/ directory, to show my thought process and ideas.
