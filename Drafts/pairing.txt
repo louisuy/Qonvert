@@ -1,0 +1,12 @@
+    if length_unit1.get() == 'Kilometres (km)' and length_unit2.get() == 'Inch (in)':
+        length_multiplier =
+    if length_unit1.get() == 'Kilometres (km)' and length_unit2.get() == 'Centimetres (cm)':
+        length_multiplier =  
+    if length_unit1.get() == 'Kilometres (km)' and length_unit2.get() == 'Yard (yd)':
+        length_multiplier =
+    if length_unit1.get() == 'Kilometres (km)' and length_unit2.get() == 'Metres (m)':
+        length_multiplier =  
+    if length_unit1.get() == 'Kilometres (km)' and length_unit2.get() == 'Miles (mi)':
+        length_multiplier =
+    if length_unit1.get() == 'Kilometres (km)' and length_unit2.get() == 'Kilometres (km)':
+        length_multiplier =  

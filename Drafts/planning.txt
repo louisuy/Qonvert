@@ -1,0 +1,105 @@
+6 Categories:
+- mass
+- length
+- speed
+- temperature
+- currency
+- date
+
+mass
+kg_lb = 2.2046228
+- kilogram to pound
+  kilogram*2.2046228
+- pound to kilogram
+  pound/2.2046228
+
+st_lb = 14
+- stone to pound
+  stone*14
+- pound to stone
+  pound/14
+
+st_kg = 6.3502927
+- stone to kg
+  stone*6.3502927
+- kg to stone
+  kg/6.3502927
+
+
+temperature
+FC_multiplier = 1.8000
+FC_addend = 32.00
+
+- fahrenheit to celsius
+  (°F - 32)/1.8000
+- celsius to fahrenheit
+  (°C * 1.8000)+ 32.00
+- celsius to kelvin
+  °C + 273.15
+- kelvin to celsius
+  K - 273.15
+- fahrenheit to kelvin
+  ((°F - 32)/1.8000) + 273.15
+- kelvin to fahrenheit
+  ((K - 273.15) * 1.8000)+ 32.00
+
+length
+cm_in = 0.39370
+m_yd  = 1.0936
+km_mi = 0.62137
+
+- centimeter to inch
+  cm * cm_in
+- inch to centimeter
+  in / cm_in
+- meter to yards
+  m * m_yd
+- yards to meter
+  yd / m_yd
+- kilometers to miles
+  km * km_mi
+- miles to kilometers
+  mi / km_mi
+
+speed
+mph_kph = 1.609344
+kn_mph = 1.150779
+kn_kph = 1.852000
+
+- mph to kph
+  mph * mph_kph
+- kph to mph
+  kph / mph_kph
+
+- knots to mph
+  knots * kn_mph
+- mph to knots
+  kph * kn_mph
+
+- knots to kph
+  knots * kn_kph
+- kph to knots
+  kph / kn_kph
+
+currency
+aed_usd = 3.67
+aed_gbp = 4.65
+usd_gbp = 1.27
+
+
+
+
+Flow:
+
+Main
+  - Choose Category
+  - Enter Initial Unit and Value
+  - Choose Output Unit
+  - Call Function
+  - Print Output
+
+Conditional (Reloop?)
+  - If Y Loop
+    - Call Main
+  - If N Exit
+    - Call Exit Screen
