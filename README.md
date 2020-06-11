@@ -10,8 +10,6 @@ This program converts imperial, metric and other non-SI units in a GUI.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 The only thing needed to be installed is [ttkthemes](https://github.com/TkinterEP/ttkthemes), which has been used to stylize the GUI.
