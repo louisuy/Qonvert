@@ -12,10 +12,16 @@ This program converts imperial, metric and other non-SI units in a GUI.
 
 ### Prerequisites
 
-The only thing needed to be installed is [ttkthemes](https://github.com/TkinterEP/ttkthemes), which has been used to stylize the GUI.
+The only things needed to be installed are:
+* [ttkthemes](https://github.com/TkinterEP/ttkthemes), which has been used to stylize the GUI
 
 ```
 pip install ttkthemes
+```
+* [tkcalendar](https://pypi.org/project/tkcalendar/), which has been used for the graphical date picker
+
+```
+pip install tkcalendar
 ```
 
 ### Usage
@@ -45,7 +51,7 @@ To convert, upon entering or choosing a value for the field, click on the 'Enter
 * [Python](https://www.python.org/) - The language used
 * [tkinter](https://docs.python.org/3/library/tkinter.html) - Python's standard GUI toolkit.
 * [ttkthemes](https://github.com/TkinterEP/ttkthemes) - Used to stylize the GUI.
-
+* [tkcalendar](https://pypi.org/project/tkcalendar/) -Used for the graphical date picker
 
 
 ## Authors
