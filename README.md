@@ -52,7 +52,7 @@ To convert, upon entering or choosing a value for the field, click on the 'Enter
 
 ## Authors
 
-**Anthony Bon Louis Uy Cubillas** [louisuy](https://github.com/louisuy)
+**Anthony Bon Louis Uy Cubillas** - [louisuy](https://github.com/louisuy)
 
 ## References
 
