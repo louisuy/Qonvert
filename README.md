@@ -65,3 +65,5 @@ Most of these relate to Julian to Gregorian conversion, the main struggle of thi
 ## Notes for judges. (Hello, there!)
 
 All my work-in-progress and raw drafts and steps available for you judges to see on the Drafts/ directory, to show my thought process and ideas.
+
+It can also be noted that the initial approach to this problem was a CLI based operation, however, as a project that can benefit the masses, the ease of a clean and simple GUI was the right approach.
