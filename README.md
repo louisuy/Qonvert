@@ -6,7 +6,34 @@
 
 Universal Converter Program - Originally written for the Curtin Hackathon Case Study.
 
-This program converts imperial, metric and other non-SI units in a GUI.
+This program converts:
+#### Mass
+- Kilograms (kg)
+- Pounds (lb)
+- Stone (st)
+#### Length
+- Inches (in)
+- Centimetres (cm)
+- Yards (yd)
+- Metres (m)
+- Miles (mi)
+- Kilometres (km)
+#### Speed
+- Miles per hour (mph)
+- Kilometres per hour (kph)
+- Knots (kn)
+#### Currency
+- United Arab Emirates Dirham (AED)
+- United States Dollar (USD)
+- Pound Sterling (GBP)
+#### Temperature
+- Fahrenheit (˚F)
+- Celsius (˚C)
+- Kelvin (K)
+#### Date
+- Gregorian Calendar
+- Julian Calendar
+- Julian Day Number
 
 ## Getting Started
 
