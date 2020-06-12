@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/louisuy/Qonvert/blob/master/qonvert.png?raw=true">
+  <img src="/qonvert.png">
 </p>
 
 # Qonvert
@@ -12,7 +12,8 @@ This program converts imperial, metric and other non-SI units in a GUI.
 
 ### Prerequisites
 
-The only things needed to be installed are:
+The things needed to be installed are:
+* [Python](https://www.python.org/)
 * [ttkthemes](https://github.com/TkinterEP/ttkthemes), which has been used to stylize the GUI
 
 ```
@@ -44,7 +45,7 @@ The same user experience is shared for all tabs except the latter, the date tab.
 
 ![Date](/Screenshots/3.png)
 
-To convert, upon entering or choosing a value for the field, click on the 'Enter' for the corresponding field.
+Calculation on update is only currently working for the Julian Day Number (JDN) field. To convert from a Gregorian or Julian Calendar input, upon choosing a value for the field, click on the 'Enter' for the corresponding field.
 
 ## Built With
 
