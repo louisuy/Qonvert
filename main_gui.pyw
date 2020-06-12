@@ -607,7 +607,6 @@ def on_gregorianpressed():
 def on_jdnpressed():
     julian_cal_var.set(jdn_to_julian(jdn_variable.get()))
     gregorian_cal_var.set(jdn_to_gregorian(jdn_variable.get()))
-    print('traced')
 
 date_widget = ttk.Frame(tab6)
 date_widget.pack()
