@@ -607,6 +607,7 @@ def on_gregorianpressed():
 def on_jdnpressed():
     julian_cal_var.set(jdn_to_julian(jdn_variable.get()))
     gregorian_cal_var.set(jdn_to_gregorian(jdn_variable.get()))
+    print('traced')
 
 date_widget = ttk.Frame(tab6)
 date_widget.pack()
@@ -662,7 +663,7 @@ jdn_entries.pack()
 ttk.Label(jdn_entries, text='  Julian Day Number:').grid(row=0, column=0, padx=5, pady=5)
 
 jdn_variable = StringVar()
-jdn_variable.trace("w", lambda name, index, mode, sv=jdn_variable: jdn_to_julian(float(jdn_variable.get())))
+jdn_variable.trace("w", lambda name, index, mode, sv=jdn_variable: on_jdnpressed())
 jdn_variable.set(2459024.5)
 
 jdn_input = ttk.Entry(jdn_entries, textvariable=jdn_variable)
