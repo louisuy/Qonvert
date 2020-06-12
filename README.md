@@ -5,7 +5,7 @@
 ##### Universal Converter Program - Originally written for the Curtin Hackathon Case Study.
 ---
 
-## About
+## About Qonvert
 
 This program converts:
 #### Mass
