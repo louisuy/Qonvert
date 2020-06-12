@@ -2,7 +2,9 @@
   <img src="images/qonvert_banner.png">
 </p>
 
-Universal Converter Program - Originally written for the Curtin Hackathon Case Study.
+##### Universal Converter Program - Originally written for the Curtin Hackathon Case Study.
+---
+
 
 This program converts:
 #### Mass
